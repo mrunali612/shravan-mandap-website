@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: maroon;
+    color: white;
+    padding: 30px;
+}
+
+nav {
+    background-color: gold;
+    padding: 15px;
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+}
+nav a:hover {
+    color: maroon;
+}
+
+
+section {
+    padding: 40px;
+}
+
+.service-box {
+    margin: 20px;
+}
+
+.gallery-img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.gallery-img:hover {
+    transform: scale(1.1);
+}
+.whatsapp-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.whatsapp-btn:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
+footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
